@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "titilium";
+    src: url("../fonts/Titillium_Web/TitilliumWeb-Bold.ttf");
+}
+@font-face {
+    font-family: lato;
+    src: url("../fonts/Lato/Lato-bold.ttf");
+}
+@font-face {
+    font-family: lato-R;
+    src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../images/background.jpg") center center fixed no-repeat;
+    background-size: cover;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background: whitesmoke;
+    box-shadow: 0 2px 3px rgba(0,0,0,.3);
+}
+#logo{
+    float: left;
+    height: 100px;
+    margin: 0 20px;
+    line-height: 100px;
+}
+#logo h1{
+    padding: 0;
+    margin: 0;
+    color: #089CFF;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: titilium;
+    position: relative;
+    bottom: 7px;
+}
+#logo h1 span{
+    color: #333333;
+}
+#menu{
+    float: left;
+    margin: 25px 10px;
+}
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#home{
+	margin-left: 20px;
+}
+#menu ul li{
+    font-family: lato;
+    font-size: 25px;
+    color: #95989A;
+    float: left;
+    padding: 0 10px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+    
+}
+#menu ul li:hover{
+    color:#0080ff;
+    background: #99ffff;
+    transition: all .5s;
+}
+#recherche{
+    float: left;
+    height: 100px;
+    line-height: 100px;
+}
+#recherche input[type="text"]{
+    height: 40px;
+    background: #D7DBE3;
+    border-radius: 5px 0 0 5px;
+    font-family: lato-R;
+    font-size: 16px;
+    color:#fff;
+    padding-left:10px ;
+    outline:none;
+    border: none;
+    width: 220px;
+}
+
+
+#login{
+    float: right;
+}
+#login ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#login ul li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    color:white;
+    height: 40px;
+    line-height: 40px;
+    margin-right : 20px;
+    margin-top : 26px;
+    margin-left : -5px;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+}
+
+#login ul li{
+    color: #ffffff;
+    background:#42b4ff ;
+    width: 160px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#login ul li:hover{
+    color:#0080ff;
+    background: #99ffff;
+    transition: all .3s;
+}
+a{
+	text-decoration:none; 
+	color: black;
+	
+	
+}
+a:hover{
+	color:#0080ff;
+}
+#deco{
+	margin-right: 20px;
+}

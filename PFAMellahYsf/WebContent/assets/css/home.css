@@ -1,0 +1,398 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../images/background.jpg") center center fixed no-repeat;
+    background-size: cover;
+}
+
+#slideShow{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+.slideShow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.slideShow .slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+}
+.slideShow .slide img{
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+.offre{
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    background: rgba(0,0,0,.7);
+    text-align: center;
+
+}
+.offre h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: titilium;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+    padding-bottom: 80px;
+    padding-top: 150px;
+}
+.offre button{
+    width: 250px;
+    height: 60px;
+    background: #1B88F5;
+    color: #ffffff;
+    font-family: lato;
+    font-size: 30px;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.offre button:hover{
+    background: #2095e4;
+    transition: all .3s;
+}
+/*------- titre -----*/
+
+.titre{
+    margin-left: 8%;
+    padding: 30px 0;
+    text-align: left;
+    position: relative;
+}
+.titre h1{
+    font-family: titilium;
+    font-size: 30px;
+    font-weight: 900;
+    color: #1B88F5;
+    margin: 0;
+    padding: 0;
+}
+.titre hr{
+    width: 100px;
+    height: 2px;
+    border: none;
+    background: rgba(0,0,0,.3);
+    position: absolute;
+    bottom: 20px;
+}
+
+/*------ categorie les plus populaire --------*/
+.clear{
+    clear: both;
+}
+#categories{
+    width: 100%;
+    padding: 30px 0;
+    background: rgba(255,255,255,.9);
+}
+#left{
+    width: 41%;
+    margin: 0 1% 0 8%;
+    float: left;
+}
+.grandCover{
+    width: 100%;
+    height: 320px;
+    min-width: 500px;
+    position: relative;
+}
+.backCover, .backFormation{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.titreFormation{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+}
+.titreFormation div{
+    line-height: 70px;
+}
+.titreFormation img{
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+.titreFormation h2{
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 800;
+    padding: 0;
+    text-align: center;
+    float: left;
+    margin:0 0 0 10px;
+}
+#right{
+    width: 41%;
+    min-width: 500px;
+    margin:0 8% 0 1%;
+    float: right;
+}
+.formation{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+.formation:last-child{
+    margin-top:20px;
+}
+/*------- Formations ---------*/
+#formations{
+    width: 100%;
+    height: auto;
+    background: rgba(0,0,0,.7)
+
+}
+#listeFormation{
+    padding: 20px 0;
+    width: 90%;
+    margin-left: 5%;
+}
+.cour{
+    width: 19%;
+    min-width: 200px;
+    height: auto;
+    box-shadow: 0 0 3px rgba(0,0,0,4);
+    margin:10px .5%;
+    float: left;
+    background: rgba(255, 255, 255, .9);
+}
+.cour img{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 3px 2px rgba(0,0,0,.2);
+}
+.cour strong, .cour span{
+    font-family: lato;
+    font-size: 12px;
+    color: #95989A;
+    float: left;
+    margin-left: 5%;
+}
+.cour span{
+    float: right;
+    margin-right: 5%;
+    font-size: 10px;
+}
+.cour hr{
+    width: 90%;
+    margin-left: 5%;
+    background: rgba(0,0,0,.3);
+    height: 2px;
+    border: none;
+    margin-top: 20px;
+}
+.cour h2{
+    font-family: lato;
+    font-size: 20px;
+    color:#1B88F5;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+
+/*----- statistiques -------*/
+#statistique{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background: #000;
+
+}
+.statistique{
+    width: 30%;
+    min-width: 300px;
+    float: left;    margin-left: 3%;
+
+
+    text-align: center;
+}
+.statistique:first-child{
+}
+.statistique img{
+    border-radius: 50%;
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+}
+.statistique strong{
+    font-family: calibri;
+    font-size: 70px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-top:30px ;
+}
+.statistique strong:last-child{
+    color: lightslategray;
+}
+
+/*----- presentation -------*/
+
+#presentation{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    background: rgba(255,255,255,.9);
+
+}
+.text,.image{
+    width: 42%;
+    height: auto;
+    float: left;
+}
+
+.text{
+    margin-left: 8%;
+}
+
+.text h1{
+
+    font-family: Lato;
+    font-size: 24px;
+    text-align: left;
+    color: #1B88F5;
+
+}
+.text p{
+    font-size: 18px;
+    font-family: Lato;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+.text button{
+    width: 150px;
+    height: 40px;
+    background: #1B88F5;
+    color: #ffffff;
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text button:hover{
+	color:#0080ff;
+    background: #99ffff;
+    transition: all .3s;
+}
+.image img{
+   float: right;
+    width: 80%;
+}
+
+/*----- Tutoriels -------*/
+
+#tutoriels {
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, .7);
+    position: relative;
+}
+#flecheGauche, #flecheDroite{
+    width: 50px;
+    height:50px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(255, 50, 50, 0.7);
+    font-family: calibri;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    position: absolute;
+    bottom: 130px;
+    line-height: 50px;
+    color: #ffff;
+    background-color: #c0392b;
+    cursor: pointer;
+    z-index: 10;
+}
+#flecheGauche:hover, #flecheDroite:hover{
+    background: #c0392b;
+    color: #ffffff;
+}
+#flecheDroite{
+    right: 5px;
+}
+#flecheGauche{
+    left: 5px;
+}
+#carousel{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    position: relative;
+    overflow: hidden;
+}
+#listedestutos{
+    padding: 30px 0;
+    width: 5000px;
+    position: relative;
+}
+.tuto{
+    width: 250px;
+    height: auto;
+    box-shadow: 0 0 3px rgba(0,0,0,4);
+    margin-right:  10px;
+    margin-left:  10px;
+
+    float: left;
+    background: rgba(255, 255, 255, .9);
+}
+.tuto:first-child{
+    margin-left: 0;
+}
+.tuto img{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 3px 2px rgba(0,0,0,.2);
+}
+.tuto strong, .tuto span{
+    font-family: lato;
+    font-size: 12px;
+    color: #95989A;
+    float: left;
+    margin-left: 5%;
+}
+.tuto span{
+    float: right;
+    margin-right: 5%;
+    font-size: 10px;
+}
+.tuto hr{
+    width: 90%;
+    margin-left: 5%;
+    background: rgba(0,0,0,.3);
+    height: 2px;
+    border: none;
+    margin-top: 20px;
+}
+.tuto p{
+    font-family: lato;
+    font-size: 14px;
+    color:black;
+    width: 90%;
+    margin-left: 5%;
+}
+#but:hover{
+	color:#0080ff;
+    background: #99ffff;
+    transition: all .3s;
+}
